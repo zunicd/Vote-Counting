@@ -40,3 +40,4 @@ To use dictionaries, update the script:
 
 save it and rerun it.
 
+**NOTE:** The file *Resources/election_data.csv* is 68.26 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB and because of that I zipped the file. Before running the script, the file should be unzipped.
