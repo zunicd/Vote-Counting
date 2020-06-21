@@ -1,16 +1,17 @@
-## Vote Counting - PyPoll
+# Vote Counting - PyPoll
 
-The dataset *Resources/election_data.csv* contains a set of poll data. It is composed of three columns: **Voter ID**, **County**, and **Candidate**. The Python script *`main.py`* analyzes the votes and calculates each of the following:
+### Objective
 
-• The total number of votes cast
+The Python script *`main.py`* analyzes the votes from the dataset *Resources/election_data.csv* and calculates each of the following:
 
-• A complete list of candidates who received votes
+- The total number of votes cast
+- A complete list of candidates who received votes
+- he percentage of votes each candidate won
 
-• The percentage of votes each candidate won
+- The total number of votes each candidate won
 
-• The total number of votes each candidate won
+- The winner of the election based on popular vote
 
-• The winner of the election based on popular vote
 
 
 In addition, the script prints the analysis to the terminal and saves to a text file *election_results.txt*:
@@ -39,5 +40,21 @@ To use dictionaries, update the script:
     usingDicts = 1
 
 save it and rerun it.
+
+
+
+### Tools / Techniques Used:
+
+- Python
+
+### About Data
+
+The dataset *Resources/election_data.csv* contains a set of poll data. 
+
+- **Number of records:**	3,521,001
+- **Columns**:
+  - Voter ID
+  - County
+  - Candidate
 
 **NOTE:** The file *Resources/election_data.csv* is 68.26 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB and because of that I zipped the file. Before running the script, the file should be unzipped.
